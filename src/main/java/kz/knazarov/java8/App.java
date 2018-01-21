@@ -12,7 +12,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        List l = Arrays.asList("Hello", "World", "My", "List");
+        List list = Arrays.asList("Hello", "World", "My", "List");
 
         //example of Consumer interface object
         //Consumer c = (Object o) -> {System.out.println(">>>" + o);};
@@ -20,8 +20,8 @@ public class App
 
         //example of forEach method on List
         //l.forEach((Object o)-> {System.out.println(">>>"+ o);});
-        
+
         //the same compact version
-        l.forEach(str->System.out.println(">>>"+ str));
+        list.forEach(str->System.out.println(">>>"+ str));
     }
 }

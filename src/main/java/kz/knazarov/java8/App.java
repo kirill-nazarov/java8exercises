@@ -14,12 +14,13 @@ public class App
     {
         List list = Arrays.asList("Hello", "World", "My", "List");
 
-        //example of Consumer interface object
-        //Consumer c = (Object o) -> {System.out.println(">>>" + o);};
-        //l.forEach(c);
+        //example of Functional Interface Consumer object
+        Consumer c = (Object o) -> {System.out.println(">>>" + o);};
+        list.forEach(c);
 
-        //example of forEach method on List
-        //l.forEach((Object o)-> {System.out.println(">>>"+ o);});
+        //example of forEach method on List no special object created explicitly
+        list.forEach((Object o)-> {System.out.println(">>>"+ o);});
+
 
         //the same compact version
         list.forEach(str->System.out.println(">>>"+ str));

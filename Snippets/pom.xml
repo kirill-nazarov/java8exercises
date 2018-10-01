@@ -3,12 +3,12 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>kz.knazarov.java8</groupId>
-  <artifactId>java8-exercises</artifactId>
+  <artifactId>java-code-snippets</artifactId>
   <version>1.0-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <build>
-    <finalName>Java8-exercises</finalName>
+    <finalName>java-code-snippets</finalName>
     <plugins>
       <plugin>
         <artifactId>maven-compiler-plugin</artifactId>
@@ -22,7 +22,7 @@
     </plugins>
   </build>
 
-  <name>java8-exersices</name>
+  <name>java-code-snippets</name>
   <url>http://maven.apache.org</url>
 
   <properties>

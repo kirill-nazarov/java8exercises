@@ -1,4 +1,4 @@
-package kz.nazarov.corejava;
+package kz.knazarov.corejava;
 
 public class Dog {
 
